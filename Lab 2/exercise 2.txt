@@ -1,0 +1,8 @@
+	1. OUTPUT: "Your weight in platinum costs $4234725.00."
+	2. The output will remain exactly the same because the values involved do 
+not require extra precision beyond the standard float's capacity.
+	3. OUTPUT: "Your weight in platinum costs $4215975.0000."
+	4. OUTPUT: "Your weight in platinum costs as float: 0.000000.  // Incorrect output
+	   	    Your weight in platinum costs as integer: 4215975.  // Correct output"
+	5.The result might not show because value corresponds to a non-printable ASCII code
+,but it also could display some control characters.
